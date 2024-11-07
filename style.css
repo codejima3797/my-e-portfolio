@@ -739,11 +739,6 @@ Small phones, tablets, large smartphones
     .panel__half {
         width: 100%;
     }
-
-    .project__wrapper:hover .project__description {
-        opacity: 0;
-        transform: translateY(100%);
-    }
     
     .project__wrapper:hover .project__img {
         transform: none;
@@ -751,7 +746,7 @@ Small phones, tablets, large smartphones
     }
     
     .project__wrapper:hover .project__wrapper--bg {
-        opacity: 0;
+        opacity: 0.8;
     }
 
     .project__wrapper:active .project__description {
